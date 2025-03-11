@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    background-color: rgb(0, 27, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 70px;
+    margin-right: 100px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar .nav-links a:hover {
+    background-color: white;
+    color: #000000;
+}
+
+.navbar .nav-links a:focus,
+.navbar .nav-links a.active {
+    background-color: rgb(251, 255, 2);
+    color: #000000;
+}
+
+.body {
+    background-color: rgb(0, 112, 0);
+}
+
+.profile-pic {
+    margin-left: 1400px;
+    margin-top: 200px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+}

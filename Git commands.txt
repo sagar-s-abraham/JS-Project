@@ -1,0 +1,7 @@
+Git commands: 
+
+To initialise git(opens a local repository for the folder we are on) : git init
+To add the git to a local repository : git add .
+To commit a file : git commit -m "feat:post handling"
+To fix a version/update a version : commit -m "fix:post handling"
+To fix errors created by others in the repo : commit -m bug
