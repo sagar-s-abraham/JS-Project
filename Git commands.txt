@@ -5,3 +5,7 @@ To add the git to a local repository : git add .
 To commit a file : git commit -m "feat:post handling"
 To fix a version/update a version : commit -m "fix:post handling"
 To fix errors created by others in the repo : commit -m bug
+
+git branch newfeature : to navigate to another branch
+git branch -d newfeature : to delete a branch(u have to push after this)
+git push origin --delete newfeature : To delete the branch w/o pushing
